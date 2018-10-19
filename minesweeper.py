@@ -49,7 +49,7 @@ class Minesweeper():
                 (r+1, c+1),
                 (r-1, c+1)]:
             if is_valid(x, y):
-                lst.append((y,x))
+                lst.append((x,y))
         return lst
 
     def adjacent_bombs(self, r, c):
